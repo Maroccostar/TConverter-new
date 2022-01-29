@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var celciusLabel: UILabel!
     @IBOutlet weak var fahrenheitLabel: UILabel!
-    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var slider: UISlider!// create connection
     
     
     @IBAction func sliderChange(_ sender: UISlider) {
